@@ -1,8 +1,26 @@
 <h1> Welcome to Super Rentals </h1>
+
+<h3>cities</h3>
 <ul>
-  {{#each model as |city|}}
-     <li>{{city.city}}, {{city.state}}</li>
+  {{#each model.cities as |city|}}
+  <li>{{city.city}},   {{city.state}}</li>
   {{/each}}
 </ul>
 
-We hope you find exactly what you're looking for in a place to stay.
+<h4>We hope you find exactly what you're looking for in a person to eat.</h4>
+<h5>other, less important things you might want from craigslist</h5>
+
+
+<div class="category-title">
+  <ul>
+    {{#each model.categories as |category|}}
+    <li>{{category.title}}</li>
+    {{/each}}
+  </ul>
+  <ul>
+    {{#each model.jobs as |job|}}
+      {{job-tile job=job destroyJob="destroyJob"}}
+    {{/each}}
+  </ul>
+  {{new-job save2="save3"}}
+</div>

@@ -1,0 +1,47 @@
+  { "cities" :[{
+    "city": "Portland",
+    "state": "Oregon"
+  }, {
+    "city": "Seattle",
+    "state": "Washington"
+  }, {
+    "city": "Tulsa",
+    "state": "Oklahoma"
+  }, {
+    "city": "Salem",
+    "state": "Oregon"
+  }, {
+    "city": "Chicken",
+    "state": "Alaska"
+  }],
+  "categories": [{
+    "title": "jobs"
+  }, {
+    "title": "community"
+  }, {
+    "title": "free"
+  }, {
+    "title": "for sale"
+  }, {
+    "title": "discussion"
+  }, {
+    "title": "housing"
+  }, {
+    "title": "services"
+  }, {
+    "title": "gigs"
+  }, {
+    "title": "personals"
+  }],
+  "jobs": [{
+    "title": "Pizza hutz king of the hutz",
+    "description": "You are hard working and you dont need much money to live on"
+  }, {
+    "title": "Hard Labor",
+    "description": "You are hard working and you dont need much money to live on"
+  }, {
+    "title": "New Coffee shop",
+    "description": "You are hard working and you dont need much money to live on"
+  }, {
+    }]
+}
