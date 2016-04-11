@@ -1,7 +1,7 @@
 # Craigslist2
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an unfinished app which begins the process of building a "craiglist" like site, where users may post services and goods.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+While it is not absolutely necessary, it would be much appreciated if you would use your own database if you would like to add or alter products. Please remove my firebase link, and replace with your own in the environment.js file.
 
 ## Further Reading / Useful Links
 
@@ -50,4 +50,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
